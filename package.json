@@ -1,0 +1,36 @@
+{
+  "name": "@fundxagon/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for FundX — decentralized fundraising on Stacks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "fundx",
+    "stacks",
+    "defi",
+    "fundraising",
+    "sdk",
+    "bitcoin",
+    "web3"
+  ],
+  "author": "Your Name <your@email.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@stacks/network": "^6.17.0",
+    "@stacks/transactions": "^6.17.0"
+  },
+  "dependencies": {
+    "@fundxgrid/stacks-core": "file:../stacks-core"
+  }
+}
