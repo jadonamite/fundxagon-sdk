@@ -1,7 +1,7 @@
 {
   "name": "@fundxagon/sdk",
-  "version": "1.0.0",
-  "description": "TypeScript SDK for FundX — decentralized fundraising on Stacks",
+  "version": "1.0.1",
+  "description": "Production-grade SDK for FundX Protocol. Provides core bindings for decentralized fundraising, escrow campaigns, and milestone-based payouts on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,16 +13,35 @@
     "prepare": "npm run build"
   },
   "keywords": [
-    "fundx",
+    "web3",
+    "blockchain",
     "stacks",
-    "defi",
+    "production-ready",
     "fundraising",
-    "sdk",
+    "escrow",
+    "crowdfunding",
+    "defi",
     "bitcoin",
-    "web3"
+    "sdk",
+    "fundx"
   ],
-  "author": "Your Name <your@email.com>",
+  "author": {
+    "name": "jadonamite",
+    "url": "https://github.com/jadonamite",
+    "email": "jadonamite@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FundX-Grid/fundxagon-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FundX-Grid/fundxagon-sdk/issues"
+  },
+  "homepage": "https://github.com/FundX-Grid/fundxagon-sdk#readme",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "typescript": "^5.9.3"
   },
