@@ -1,6 +1,6 @@
 {
   "name": "@fundxagon/sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Production-grade SDK for FundX Protocol. Provides core bindings for decentralized fundraising, escrow campaigns, and milestone-based payouts on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FundX-Grid/fundxagon-sdk.git"
+    "url": "git+https://github.com/jadonamite/fundxagon-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/FundX-Grid/fundxagon-sdk/issues"
+    "url": "https://github.com/jadonamite/fundxagon-sdk/issues"
   },
-  "homepage": "https://github.com/FundX-Grid/fundxagon-sdk#readme",
+  "homepage": "https://github.com/jadonamite/fundxagon-sdk#readme",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
